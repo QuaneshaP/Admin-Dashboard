@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto-Italic-VariableFont_wdth,wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;   
+}
+body{
+    display: flex;
+}
+.dashboard{
+    display: grid;
+    grid-template-rows: repeat(8, 25px);
+    row-gap: 20px;
+    width: 20vw;
+    height: 100vh;
+    background-color: rgb(21, 114, 175);
+    color: aliceblue;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 50px;
+    font-size: 1.5rem;
+   
+}
+.header{
+    height: 20vh;
+}
+.dashboard h1{
+    padding-bottom: 120px;
+    padding-top: 80px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.dashboard img{
+    color: aliceblue;
+}
+
+.form{
+    padding-top: 20px;
+    display: flex;
+    padding-left: 50px;
+    
+}
+input{
+    width: 700px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: rgb(182, 182, 182);
+    border-style: none;
+  
+}
+
+.name {
+    font-size: 1.1rem;
+    padding-left: 80px;
+}
+.container{
+    padding-left: 550px;
+    display: flex;
+}
+.bell-icon{
+    padding-right: 50px;
+}
+.icon{
+    position: relative;
+    bottom: 20px;
+}
+.header-bottom{
+    padding-left: 50px;
+    border-bottom: 2px solid;
+    border-color: rgb(95, 93, 93) ;
+    box-shadow: 10px 5px 5px rgb(99, 97, 97);
+    width: 80vw;
+}
