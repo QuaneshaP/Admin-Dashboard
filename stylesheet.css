@@ -15,16 +15,17 @@ body{
 .dashboard{
     display: grid;
     grid-template-rows: repeat(8, 25px);
-    row-gap: 20px;
+    row-gap: 2rem;
     min-width: 18vw;
     min-height: 100vh;
     background-color: rgb(21, 114, 175);
     color: aliceblue;
     align-items: center;
-    padding-left: 1rem;
-    padding-top: 70px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 4rem;
     font-size: 1.7rem;
-    padding-left: 50px;
+    
    
 }
 .header{
@@ -76,7 +77,7 @@ input{
     padding-left: 50px;
     border-bottom: 6px solid ;
     border-color:rgba(63, 63, 63, 0.171);
-    width: 82vw;
+    min-width: 82vw;
     display: flex;
     justify-content: space-between;
 }
@@ -125,8 +126,8 @@ input{
 .bottom-dash{
     display: grid;
     grid-template-rows: (3, 25px);
-    position: relative;
-    padding-top: 300px;
+    
+    padding-top: 15rem;
     row-gap: 20px;
 }
 .super-cool{
@@ -139,16 +140,18 @@ input{
 .grid-header{
     display: flex;
     font-size: 1.1rem;
+    align-items: center;
     justify-content: space-between;
+    padding-top: 2rem;
+    
     
 }
 .projects{
    padding-left: 3rem;
-   padding-top: 40px;
+   
 }
 .announcements{
-    padding-top: 2rem;
-    padding-right: 27rem;
+    padding-right:30rem ;
 }
 .community{
      border-top: dotted 1px ;
@@ -232,13 +235,21 @@ img{
    grid-column: 3/4;
    grid-row: span 2 /4;
    height: 350px;
-   position: relative;
-   top: 200px;
+    position: relative;
+    top: 200px;
    width: 400px;
    border-left: none;
+  
 }
 [src="facebook-gaming.svg"]{
     position: relative;
     top: 10px;
+}
+.trending .ho{
+    font-weight: normal;
+}
+.trend-container{
+    display: flex;
+     padding-top: 10px;
 }
 
